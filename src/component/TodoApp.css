@@ -1,0 +1,59 @@
+  body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+  }
+
+  .todo-container{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  h1{
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #ababab;
+
+  }
+  .input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: #00001c;
+  }
+  .input-section input{
+    border-radius: 5px;
+    border: 1 px solid silver;
+    width: 100%;
+    padding: 10%;
+    box-sizing: border-box;
+  }
+  input::placeholder{
+    color: silver;
+  }
+
+  ul{
+    text-align: left;
+    padding: 0px;
+  }
+  ul li{
+    display: flex;
+    list-style: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    color: gray;
+  }
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+ul li j{
+  padding-left: 10px;
+    cursor: pointer;
+}
+
